@@ -1,6 +1,7 @@
 ##
 ##
 ##-------------------------------------------------------------------------------
+Install Flutter SDK and Set the Path in Terminal 
 export PATH="$PATH:`pwd`/flutter/bin"
 $HOME/.zshrc
 export PATH="$PATH:/Users/rock/Desktop/Dev/flutter/bin"
@@ -12,4 +13,7 @@ Download and install XCode
 https://itunes.apple.com/us/app/xcode/id497799835
 sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
 sudo xcodebuild -runFirstLaunch
+sudo xcodebuild -license 
+##-------------------------------------------------------------------------------
+Download Visual Code
 ##-------------------------------------------------------------------------------
