@@ -1,0 +1,15 @@
+##
+##
+##-------------------------------------------------------------------------------
+export PATH="$PATH:`pwd`/flutter/bin"
+$HOME/.zshrc
+export PATH="$PATH:/Users/rock/Desktop/Dev/flutter/bin"
+which flutter
+flutter precache
+flutter docotor
+##-------------------------------------------------------------------------------
+Download and install XCode
+https://itunes.apple.com/us/app/xcode/id497799835
+sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
+sudo xcodebuild -runFirstLaunch
+##-------------------------------------------------------------------------------
