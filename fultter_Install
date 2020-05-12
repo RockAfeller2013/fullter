@@ -1,19 +1,30 @@
-##
-##
 ##-------------------------------------------------------------------------------
-Install Flutter SDK and Set the Path in Terminal 
+## Install Flutter SDK and Set the Path in Terminal 
+git clone https://github.com/flutter/flutter.git -b stable
 export PATH="$PATH:`pwd`/flutter/bin"
 $HOME/.zshrc
 export PATH="$PATH:/Users/rock/Desktop/Dev/flutter/bin"
 which flutter
 flutter precache
 flutter docotor
+flutter devices 
+flutter upgrade
 ##-------------------------------------------------------------------------------
-Download and install XCode
-https://itunes.apple.com/us/app/xcode/id497799835
+## Download and install XCode
+## https://itunes.apple.com/us/app/xcode/id497799835
 sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
-sudo xcodebuild -runFirstLaunch
 sudo xcodebuild -license 
+##-------------------------------------------------------------------------------
+## Run Simluator
+open -a Simulator
+sudo gem install cocoapods
+pod setup
+open ios/Runner.xcworkspace
+##-------------------------------------------------------------------------------
+## Create App
+flutter create my_app
+cd my_app
+flutter run
 ##-------------------------------------------------------------------------------
 Download Visual Code
 ##-------------------------------------------------------------------------------
